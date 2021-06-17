@@ -2,4 +2,4 @@
 
 Simple code to add, multiply, subtract and divide two numbers.
 
-It is in the C language.
+It is written in C language.
