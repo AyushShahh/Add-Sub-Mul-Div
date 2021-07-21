@@ -34,7 +34,6 @@ int main()
 		printf("\n Subtraction = %d\n",sub);
 		printf("\n Multiplication = %d\n",mul);
 		printf("\n Division (a/b)= NOT DEFINED\n");
-	
 	}
 	
 	getch();
