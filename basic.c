@@ -6,8 +6,10 @@ int main()
 	int a,b,add,sub,mul;
 	float div;
 	
-	printf("Enter two numbers: ");
-	scanf("%d %d",&a,&b);
+	printf("\n\n First number (a): ");
+	scanf("%d",&a);
+	printf("\n Second number (b): ");
+	scanf("%d",&b);
 	
 	if(b != 0)
 	{
@@ -19,7 +21,7 @@ int main()
 		printf("\n\n Addition = %d\n",add);
 		printf("\n Subtraction = %d\n",sub);
 		printf("\n Multiplication = %d\n",mul);
-		printf("\n Division = %.2f\n",div);	
+		printf("\n Division (a/b) = %.2f\n",div);	
 	}
 
 	else
@@ -31,7 +33,7 @@ int main()
 		printf("\n Addition = %d\n",add);
 		printf("\n Subtraction = %d\n",sub);
 		printf("\n Multiplication = %d\n",mul);
-		printf("\n Division = NOT DEFINED\n");
+		printf("\n Division (a/b)= NOT DEFINED\n");
 	
 	}
 	
